@@ -1,16 +1,21 @@
 package main;
 
 import config.ProjectConfig;
+import main.objects.Cat;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
 
     public static void main(String[] args) {
-        try { AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
+        try {
+            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        } catch (Exception e) {
-            e.printStackTrace();
+            Cat c = context.getBean(Cat.class);
+
+            System.out.println(c.name);
+        } finally {
+
         }
     }
-
+    
 }
