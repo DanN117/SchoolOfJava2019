@@ -1,6 +1,7 @@
 package config;
 
 import beans.TransactionRepository;
+import org.omg.IOP.TransactionService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -23,5 +24,13 @@ public class ProjectConfig {
         TransactionRepository newTransactionRepository = new TransactionRepository();
 
         return newTransactionRepository;
+    }
+
+
+    @Bean // + singleton
+    public TransactionService transactionServiceFactory() {
+        TransactionService newTransactionServvice = new TransactionService();
+
+        return newTransactionServvice;
     }
 }
