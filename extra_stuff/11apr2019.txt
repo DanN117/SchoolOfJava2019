@@ -61,3 +61,24 @@ de facut obiect de tip bank account
 	ballance
 
 
+
+
+
+
+
+informatii in plus prin comentarii
+
+
+
+
+
+
+
+
+
+
+
+
+data viitoare controllere
+
+
