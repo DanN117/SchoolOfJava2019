@@ -13,6 +13,8 @@ annotations
 	
 
 chestii cu singleton, prototype
+@Scope("prototype")
+
 
 @Component
 	@Repository
@@ -42,4 +44,20 @@ pe setter, pe constructor sau field?
 
 
 partea cu service si repositories
+
+repositories
+	se ocupa de persistenta datelor
+	contin query, salvare fisiere
+
+services
+	partea logica
+	validari, etc
 	
+
+
+
+de facut obiect de tip bank account
+	numele owner
+	ballance
+
+
