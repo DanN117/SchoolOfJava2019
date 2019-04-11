@@ -1,0 +1,45 @@
+maven project
+
+config
+	ProjectConfig
+	repositories
+	service
+		cu clasele ca in primul proiect
+
+
+annotations
+	@Bean
+	@Configuration
+	
+
+chestii cu singleton, prototype
+
+@Component
+	@Repository
+	@Service
+	(creeaza automat bean-ul)
+	sau cu auto wire
+
+adnotarile mai noi ne scapa de anumite configurari
+
+pentru conectari la baze de date refolosim acelasi bean + codul din el
+cand nu mai folosim, spring taie automat conexiunea
+
+
+auto wire se poate pune in mai multe locuri
+pe setter, pe constructor sau field?
+
+@Autowired
+
+
+
+
+
+
+
+
+
+
+
+partea cu service si repositories
+	

@@ -1,0 +1,124 @@
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019
+$ git init
+Initialized empty Git repository in C:/SchoolOfJava2019/.git/
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hello.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hello.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git add .
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   hello.txt
+
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ ^C
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'EndavaGuest@EN614314.(none)')
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git commit -m "Initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'EndavaGuest@EN614314.(none)')
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git config --global user.email "abc@123.com"
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git config --global user.name "My Name"
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) cf068da] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.txt
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git remote add origin https://github.com/DanN117/SchoolOfJava2019
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/DanN117/SchoolOfJava2019
+ * [new branch]      master -> master
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$
