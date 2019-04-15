@@ -1,0 +1,132 @@
+spring boot
+controllere
+rest services
+web stuff
+
+methods
+	get		
+	post	(publicam info catre server, adica invers decat get, de ex poze, formulare)
+	put 	(update, editare formulare deja completate, actualizare)
+	delete
+	patch	(update mai mic, doar diferentele, nu trebuie trimise toate campurile)
+
+
+https://start.spring.io/
+
+	configuram proiectul
+	important pt servicii web trebuie sii extensia de web
+
+
+	la component scan trebuie toata calea
+
+
+	controller este bean-ul principal care se ocupa de request-uri
+
+	se creeaza metoda adnotata cu
+	    @RequestMapping(path = "/locatie01")
+
+
+	http://127.0.0.1:8080/locatie01
+
+
+
+
+
+
+
+	http status
+		2XX	ok
+		4XX	error client
+		5XX	error server
+
+
+	
+	RequestMethod.POST
+	@RequestMapping(???)
+	@GetMapping("/...")
+
+	serializare cu JSON
+
+	Postman
+		{
+	"IBAN":"1234",
+	"ownerName":"Dan",
+	"balance":30
+	}
+
+
+
+	un controller ar trebui sa faca cat mai putin
+
+
+	
+@RestController
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	de facut:
+		un service, repository si un controller pt un card
+
+		metode: post si get
+		add card, get cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
