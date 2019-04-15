@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Downloads/s03e01/s03e01/src/main/java/com/endava/s03e01/controllers/BankAccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="408">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -294,7 +294,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +373,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/s03e01/s03e01/src/main/java/com/endava/s03e01/controllers/BankAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="408">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />

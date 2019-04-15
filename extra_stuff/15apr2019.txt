@@ -107,8 +107,26 @@ https://start.spring.io/
 
 
 
+	tema:
+		pentru card
+			pe langa parametrii si o lista de tranzactii
+			obiect tranzactie cu suma si magazin
+			
+		card RCS, functionalitatea
+			get transactions
+			add transaction
 
+		pentru tranzactii RCS
+			R - List <>
+			S - 
+			C - 
+		
+			endpoint-uri de update (put sau patch)
+			si delete
 
+		4 endpoint-uri cu get post, put si delete
+
+		pt card exista deja, mai trebuie la tranzactii
 
 
 
