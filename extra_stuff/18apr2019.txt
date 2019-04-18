@@ -140,4 +140,8 @@ tema:
 
 	de rulat toate metodele
 
+spring jdbc stuff in pom
+
+in general e mai bine
+
 
