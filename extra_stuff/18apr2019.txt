@@ -1,0 +1,143 @@
+database (schema)
+Oracle SQL developer
+
+
+
+DEPT
+	id			numeric		in mysql int		(primary key)
+	(name)	varchar(10) sau varchar2(10)
+
+EMP
+	id
+	name
+	etc
+	...
+	
+
+un emp intr-un singur dept
+	=> foreign key din EMP catre primary key-ul DEPT
+
+
+
+
+
+
+create table dept {
+id number (2),
+name varchar2(40),
+constraint pk_dept primary key (id)};
+
+run
+
+describe dept;
+select * from dept;
+
+create table emp {
+	id number(2),			// -99 99
+	name varchar2(40),
+	age number(3),
+	dept_id number(2),
+	constraint pk_emp primary key(id),
+	constraint fk_emp foreign key(dept_id) references dept(id)};
+
+
+
+describe emp;
+select * from emp;
+
+insert into dept values(1, 'NETS');
+insert into dept(id, name) values(2, 'ACCOUNTING');
+insert into emp values (1, 'Gigel', 30, 1);
+insert into emp values (2, 'Gigel', 30, 4);	//eroare, dept cu id 4 nu exista
+// cu 1 merge
+insert into emp values (3, 'Costel', 30, 1);
+insert into emp values (4, 'Costel', 30, 1);
+
+
+update emp set age=35;	// schimba age la toate liniile
+
+update emp set age=36 where name='Costel';	//sau cu id
+update emp set age=36 where name='Costel' AND id=4;
+
+// nu se poate sterge un table cu chei folosite in alt table
+truncate table dept;
+truncate table emp;
+
+
+select count(*) from emp;
+select min(age) from emp;
+
+select age from emp where name like 'Costel';	// output 36\n30
+
+select age from emp where name like '%el%';	// contine el
+
+
+
+// 1	1
+// 1	2
+// 1	3
+// 2	4
+// left join (dept, emp)
+// venn diagram: cercul cu dept hasurat
+// inner join ia intersectia
+// outer ce nu e comun
+// full, absolut totul
+
+select * from emp;
+select * from dept;
+
+
+select * from dept
+left join emp
+on dept.id=emp.dept_id;
+
+select count (*), name from emp
+group by name;
+
+select count(*) nr_emp, name from emp
+group by name
+where age > 30
+group by name
+having count(*) > 1;
+// eroare
+
+
+select count(*) nr_emp, name from emp
+group by name
+where age > 30
+group by name
+having count(*) > 1;
+
+
+// ce e o tranzactie
+// poate avea mai multe opeatii (insert, etc)
+// da rollback daca nu s-a facut toata tranzactia
+// se foloseste commit
+
+
+
+
+
+
+in java:
+	se foloseste un driver
+	+dependinta oracle
+		com.oracle
+		ojdbc8
+		${oracle.version}
+
+
+	oracle.jbdc.OracleDriver
+	
+	metoda care returneaza o conectiune
+
+
+
+
+
+tema:
+	de rulat proiectul, eventual de schimbat driverul
+
+	de rulat toate metodele
+
+
