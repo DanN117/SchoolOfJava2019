@@ -1,0 +1,83 @@
+
+
+
+start spring io
+
+web
+
+mysql
+
+jdbc
+
+
+
+
+
+
+
+
+microservicii (modularitate)
+
+module care comunica prin REST
+
+c.r.u.d.
+
+tabel cu verbe web
+
+
+
+
+
+acum exercitiu cu baza de date, controller, repository si service
+
+spring.datasource.url = jdbc:mysql:http://localhost:3306/movies
+spring.datasource.username = root
+spring.datasource.password =
+
+CREATE TABLE `movies`.`movie` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(45) NULL,
+  `genre` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+
+
+controller
+	component
+	controller
+	rest controller (2 in 1)
+
+
+spring.datasource.url = jdbc:mysql:http://localhost:3306/movies
+spring.datasource.username = root
+spring.datasource.password =
+
+127.0.0.1:8080/?title=CaptainMarvel&genre=Action
+
+
+
+127.0.0.1:8080/1
+
+
+
+
+
+to do:
+	get by id
+	get all
+	+ parte de rating
+		si din postman modificare rating (+/-)
+
+
+
+
+{
+	"id"=1,
+	"title"="film",
+	"genre"="gen"
+}
+
+
+
+status codes
+201 in loc de 200
+
