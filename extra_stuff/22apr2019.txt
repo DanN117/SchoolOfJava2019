@@ -64,7 +64,7 @@ spring.datasource.password =
 to do:
 	get by id
 	get all
-	+ parte de rating
+	update rating
 		si din postman modificare rating (+/-)
 
 
