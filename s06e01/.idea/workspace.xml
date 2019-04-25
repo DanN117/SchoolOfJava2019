@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19e99bcd-3c9a-4fcd-abf7-b6b297e7db94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../s06e02/src/main/java/com/endava/s06e02/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../s06e02/src/main/java/com/endava/s06e02/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../s06e02/src/main/java/com/endava/s06e02/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../s06e02/src/main/java/com/endava/s06e02/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../extra_stuff/25apr2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../extra_stuff/25apr2019.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="19e99bcd-3c9a-4fcd-abf7-b6b297e7db94" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
