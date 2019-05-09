@@ -1,0 +1,107 @@
+active mq classic
+
+JMS
+
+producer - consumer
+
+message broker
+
+comunicare asincrona intre 2 aplicatii
+
+e pe baza de queue
+
+
+in jms 2 tipuri de q
+	cand e citit se consuma mesajul
+	1 producer, mai multi subscribers (topic in loc de mesaj)
+
+ibm mq, rabbit mq, active mq (sisteme de jms)
+
+
+
+new project
+spring boot
+dep
+messaging
+jms activemq
+
+mai trebuie si     active mq broker maven  (mvnrep)
+
+cateva aplicatii pentru a testa comunicarea
+
+
+set pub subdomain true sa fie comentat in jms template
+
+
+app configuration
+
+bean
+activemqconnectionfactory
+
+bean
+jmstemplate
+
+clasa message sender
+	metoda send
+		jmstemplate.convertandsetn(queue, msg)
+
+runwith(springrunner.class)
+springbootaplication
+class jms application
+	create test
+
+class jmsapplicationtests
+	
+
+
+
+
+se dezarhiveaza activemq
+se ruleaza   PATH_TO_FOLDER\bin\activemq start
+
+127.0.0.1:8161
+log in: admin, admin
+
+http://127.0.0.1:8161/admin/queues.jsp
+
+
+
+se poate duplica aplicatia existenta (copy paste la folder)
+shift F6
+sender config -> reciver config
+
+jms listener container factory
+
+se comenteaza aceeasi linie
+
+
+
+in receiver config
+trebuie si @EnableJms
+
+se ruleaza ambele aplicatii in acelasi timp
+
+
+din prima aplicatie (sender)
+
+
+acum se decomenteaza chestia comentata (pubsubdomain)
+
+
+
+
+
+acum la fel doar ca cu topic in loc de queue
+
+
+
+
+
+
+tema: kafka (research)
+
+
+
+
+
+
