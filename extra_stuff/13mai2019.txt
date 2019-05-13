@@ -51,7 +51,21 @@ mongo.exe
 
 
 
+ideal fiecare microserviciu trebuie sa aiba baza de date separat
 
 
 tema:
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
