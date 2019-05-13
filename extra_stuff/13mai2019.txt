@@ -1,0 +1,57 @@
+no sql
+	key-value store
+	document oriented (json), ex: mongodb, couchdb
+	graph databases, ex: neo4j
+	column store, ex: cassandra, hbase
+
+mongodb
+
+
+
+
+diferente intre insert si save
+
+
+
+{
+	"title" : "Thr last samuray",
+	"genre" : "action",
+	"rating" : 5,
+	"cast" : ["Tom Cruise"]
+}
+
+
+POST: Body, raw, json
+{
+	"title" : "Thr last samuray",
+	"genre" : "action",
+	"rating" : 5,
+	"cast" : {
+		"actors": ["Tom Cruise"] 
+	}
+}
+
+
+
+mongo.exe
+	show dbs
+	use test
+	show collections
+	db.movie.find()
+
+
+{
+	"title" : "X-Files",
+	"genre" : "sci-fi",
+	"rating" : 5,
+	"cast" : {
+		"actors": ["David Duchovny, Gillian Anderson"] 
+	}
+}
+
+
+
+
+
+tema:
+	
