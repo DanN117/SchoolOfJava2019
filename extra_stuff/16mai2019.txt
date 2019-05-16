@@ -69,8 +69,14 @@ Singleton se poate face si cu enum
 
 
 
+11:
 
 
+
+12: spring security
+
+
+16 putting it all together (6 iun)
 
 
 
