@@ -30,3 +30,56 @@ singleton in spring nu e acelasi lucru
 
 
 mai bine cu builder separat (fiecare clasa face treaba ei)
+
+
+
+
+factory methods
+
+
+
+
+
+
+observer pattern
+
+A
+B (implemetare de Listener)
+Listener
+
+
+A -> Listener
+
+
+List<Listener>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

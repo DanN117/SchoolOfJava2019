@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd015522-7a48-4861-acc8-5de022f64b56" name="Default Changelist" comment="">
+    <list default="true" id="8f2f477e-7b17-42ac-a9ee-10f59807e86b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SoJ10Ex03/src/api/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoJ10Ex03/src/implementation/HelloEn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoJ10Ex03/src/implementation/HelloEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoJ10Ex03/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoJ10Ex03/src/main/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoJ10Ex2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoJ10Ex2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../extra_stuff/16mai2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../extra_stuff/16mai2019.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,25 +27,26 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/MyListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,10 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,6 +65,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,8 +76,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/model/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/MyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
@@ -93,23 +101,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SoJ10Ex2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoJ10Ex2" type="462c0819:PsiDirectoryNode" />
+              <item name="SoJ10Ex04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoJ10Ex04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoJ10Ex04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoJ10Ex04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoJ10Ex04" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoJ10Ex04" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,23 +144,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd015522-7a48-4861-acc8-5de022f64b56" name="Default Changelist" comment="" />
-      <created>1558022681545</created>
+      <changelist id="8f2f477e-7b17-42ac-a9ee-10f59807e86b" name="Default Changelist" comment="" />
+      <created>1558025069893</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558022681545</updated>
+      <updated>1558025069893</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23971723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -167,33 +184,31 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/model/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/MyListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
