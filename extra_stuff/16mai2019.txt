@@ -1,0 +1,32 @@
+Design patterns
+
+Singleton
+
+3 implementari
+
+se incepe cu constructor privat
+
+
+
+
+explicatii stack
+
+explicatii heap
+	zone heap:
+		eden
+		survivor zero
+		survivor one
+		old generation // ai de obicei instante singleton
+		perm generation // nu mai sunt dezalocate, aici ajung instantele tipurilor de date
+			exista cate o singura instanta prototip din fiecara, instantiata de class loader
+
+class loader sincronizeaza instantierea
+
+
+singleton in spring nu e acelasi lucru
+
+
+
+
+
+mai bine cu builder separat (fiecare clasa face treaba ei)
