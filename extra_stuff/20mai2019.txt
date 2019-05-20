@@ -1,0 +1,96 @@
+SoJ 11
+
+interceptori si AOP (aspect oriented programming)
+
+metoda 1 (String str1) {
+	sop("m2" + str); }
+
+
+metoda 2 (String str2) {
+	sop("m1" + str); }
+
+
+sa se declanseze portiune de cod la cerere
+
+join point
+	pct in program unde vrem sa facem o anumita modificare
+	@Pointcut care prineste o expresie (expresia este joinpoint)
+	trebuie precizat modificatorul de acces, ce returneaza, etc
+		se poate pune * la anumiti parametri
+		ca un sistem de filtrare
+		alte filtre:
+			nume pachet (nu trebuie precizat daca e in aceasi pachet)
+			clasa
+			
+	
+
+@Before (*expresie*/Pointcut)
+
+@After		pentru sfarsitul metodei
+public void (joinpoint jp) {
+	...
+}
+
+@Around		pentru si inainte si dupa
+public void around (Proceeed joinpoint))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+la inceputul metodei display
+    @Pointcut("execution (* Student.display())")
+    public void studentDisplay() {}
+
+    @Before("studentDisplay()")
+    void display(JoinPoint jp) {
+        System.out.println(jp.getSignature().getName());
+    }
+
+la sfarsitul tuturor metodelor
+
+    @Pointcut("execution (* Student.*(..))")
+    public void studentMethod() {}
+
+    @After("studentMethod()")
+    void display2(JoinPoint jp) {
+        System.out.println("method: " + jp.getSignature().getName());
+    }
+
+la inceputul si sfarsitul tuturor metodelor, cu around
+
+la inceputul tuturor metodelor care primesc string
+
+sa se combine 2 expresii
+
+2 pointcut-uri
+
+doar metodele cu set in nume (sau care incep cu set)
+
+
+
+
+
