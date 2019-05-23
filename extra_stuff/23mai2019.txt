@@ -1,0 +1,148 @@
+spring start io
+
+web, security
+
+spring boot starter security
+
+rest controller e combinatia de controller plus response body
+
+
+postman
+get
+auto
+basic auth
+
+
+
+
+git bash
+
+curl
+
+
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ curl http://localhost:8080/hello
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   121    0   121    0     0   1512      0 --:--:-- --:--:-- --:--:--  1512{"timestamp":"2019-05-23T15:19:32.375+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/hello"}
+
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ curl -u user:55a7d7ef-ad09-4b43-8701-88de737c7763 http://localhost:8080/hello
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100     5  100     5    0     0     45      0 --:--:-- --:--:-- --:--:--    45HELLO
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ curl http://localhost:8080/hello
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   121    0   121    0     0   6050      0 --:--:-- --:--:-- --:--:--  6368{"timestamp":"2019-05-23T15:20:00.556+0000","status":401,"error":"Unauthorized","message":"Unauthorized","path":"/hello"}
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$ ^C
+
+EndavaGuest@EN614314 MINGW64 /c/SchoolOfJava2019 (master)
+$
+
+
+
+ant
+mvc
+regex, complex, dar poate sa faca orice, greu de folosit
+
+
+
+
+
+userdetails
+
+user details service (managementul userilor)
+
+GrantedAuthority a = () -> "ADMIN";
+( a );
+
+
+
+
+
+UserDetails     contract ca sa descriem userul
+
+UserDetailsService     contract ca sa incarcam userul din baza
+
+GrantedAuthority     contract care indica tipul de user
+
+
+
+hash vs encrypt
+
+hash e 1 way
+
+
+
+
+expresie lambda
+
+
+exemple Bean
+
+
+noop password encoder
+
+
+clientul trebuie sa stie parola in clar
+serverul niciodata
+
+
+
+cine are manager are si service
+manager extends service
+
+interface segregation
+
+solid principles
+
+
+
+
+
+tema:
+
+exercitiul 1:
+inlocuiti baza de date sql cu mongo
+
+user details service doar ca cu mongo
+
+exercitiul 2:
+aplicatie cu jbdc/jpa cu useri
+	atribute:
+
+	
+
+
+
+	primul app, cu security, intreaba aplicatia REST care se conecteaza la baza de date
+
+	cand cineva apeleaza hello pe primul app, primul app vede daca se poate intreband a doua aplicatie
+
+
+	expus rest care ia user details sau ceva
+
+	folosit proxy catre alta aplicatie
+
+	rest template
+
+
+	in loc de bd se ia dintr-un proxy
+
+
+
+
+
+
+userre
+
