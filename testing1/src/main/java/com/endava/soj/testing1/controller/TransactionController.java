@@ -18,4 +18,9 @@ public class TransactionController {
     private String testEndpoint() {
         return "I'm ok";
     }
+
+    // @RequestMapping(path = "/post", method = RequestMethod.POST)
+    // private void addTransaction() {
+    //     transactionService.addTransaction(transaction);
+    // }
 }

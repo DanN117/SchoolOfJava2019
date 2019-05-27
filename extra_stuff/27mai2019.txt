@@ -42,3 +42,12 @@ mock vs mockbean
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+
+
+
+
+alt caz teste integrare:
+	chestii cu alt server
+
+
+
