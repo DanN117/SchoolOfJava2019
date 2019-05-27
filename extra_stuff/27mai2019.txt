@@ -1,0 +1,25 @@
+6-7 teste pentru fiecare metoda
+
+
+right-biceps unit testing
+
+@Before
+@BeforeClass
+@After
+@AfterClass
+
+
+when se foloseste si pentru baze de date
+
+
+
+teste de integrare
+	testeaza daca componentele se inteleg intre ele
+
+teste de regresie
+	combinatie de mai multe teste
+
+
+inject mocks vs mock
+
+clasa curenta vs alte chestii testate
