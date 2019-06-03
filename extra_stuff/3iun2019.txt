@@ -1,0 +1,87 @@
+spring mvc
+
+model
+
+view
+
+controller
+
+
+
+
+
+
+
+
+
+controller   ---> service   --->   repository
+	view  <--------data(model)------|
+
+
+
+view incapsuleaza datele
+
+
+controllerul e cel care raspunde la request-uri
+
+
+
+
+join.me/
+
+
+
+jetty pentru server
+
+
+pentru a porni serv
+	maven, pluggin, jetty, run maven build
+
+
+mvc annotation driven
+
+un controller retunreaza un view
+
+
+
+
+
+
+
+
+
+model and view
+
+jst/jstl?
+
+<c:forEach 
+
+
+
+
+
+
+
+bean scope
+
+
+
+
+
+
+scopes
+	request
+	session
+
+
+
+
+tema:
+	exercitiu cu mvc
+
+	cate un exemplu cu scopurile request si session
+	singleton vs prototype
+
+
+
+https://www.baeldung.com/spring-requestmapping
