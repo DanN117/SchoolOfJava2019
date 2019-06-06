@@ -1,0 +1,68 @@
+pachet config
+
+
+
+
+
+
+
+
+
+
+
+acces to tokens
+
+
+
+2 tipuri user
+	user
+	aplicatia
+
+	separatie pentru ca in practica ca acealsi server sa fie folosit la mai multe aplicatii
+		cu permisiuni diferite
+
+
+
+
+se adauga o dependinta
+	security oauth
+
+http://127.0.0.1:8080/oauth/token?scope=write&grant_type=password&username=john&password=12345
+
+
+
+
+    @Override
+    public UserDetailsService userDetailsServiceBean() {
+        InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+
+        UserDetails userDetails = User.withUsername("john")
+                .password("12345")
+                .authorities("ADMIN")
+                .build();
+
+        manager.createUser(userDetails);
+
+        return manager;
+    }
+
+
+
+
+
+http://127.0.0.1:8080/oauth/token?scope=write&grant_type=password&username=user1&password=pass1
+
+
+
+
+
+JWT pentru token
+json web token
+
+
+
+
+
+
+
+
