@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.endava</groupId>
-	<artifactId>SoJ16</artifactId>
+	<artifactId>SoJ16_2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SoJ16</name>
+	<name>SoJ16_2</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,6 +22,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

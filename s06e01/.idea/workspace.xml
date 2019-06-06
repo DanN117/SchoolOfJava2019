@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e99bcd-3c9a-4fcd-abf7-b6b297e7db94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/config/AuthServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/config/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/services/JpaUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoJ16/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoJ16/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/config/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoJ16/src/main/java/com/endava/SoJ16/config/AuthServerConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />

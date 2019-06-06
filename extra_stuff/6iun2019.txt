@@ -63,6 +63,40 @@ json web token
 
 
 
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NTk4ODE4MTgsInVzZXJfbmFtZSI6InVzZXIxIiwiYXV0aG9yaXRpZXMiOlsiQURNSU4iXSwianRpIjoiOTc3MGM3OTAtMjQyMy00MzNmLTllM2YtMGJlOGQyZTc0MDA0IiwiY2xpZW50X2lkIjoiYXBsaWNhdGllIiwic2NvcGUiOlsid3JpdGUiXX0.3Or6_5S2MZr9c7G-5YljbwQy8jzc6lJwOzRwUQio2Rg",
+    "token_type": "bearer",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJ1c2VyMSIsInNjb3BlIjpbIndyaXRlIl0sImF0aSI6Ijk3NzBjNzkwLTI0MjMtNDMzZi05ZTNmLTBiZThkMmU3NDAwNCIsImV4cCI6MTU2MjQzMDYxOCwiYXV0aG9yaXRpZXMiOlsiQURNSU4iXSwianRpIjoiNmRjYTdkN2YtNzAxZC00MjNiLTg1ZTctYWY3MzI1NDFiZjg4IiwiY2xpZW50X2lkIjoiYXBsaWNhdGllIn0.OEaw0DdoWMdM1zasWtTj2QhEVyXW4kXX22vrBOmKjxk",
+    "expires_in": 43199,
+    "scope": "write",
+    "jti": "9770c790-2423-433f-9e3f-0be8d2e74004"
+}
+
+
+
+
+
+
+JPA
+JDBC
+Mongo
+JMS
+
+
+angular springboot
+
+
+
+
+tema:
+	db
+	jbdc sau jpa
+	poate si mongo
+	jms topic cu consumatori
+
+
+	aplicatie facuta de noi
+
 
 
 
