@@ -1,0 +1,210 @@
+SoJ 17?
+
+angular stuff
+https://cli.angular.io/
+
+node js stuff
+https://nodejs.org/en/download/
+
+https://code.visualstudio.com/
+
+
+
+am folosit sistemul de view + html stuff in SoJ 15
+	nu se scaleaza bine
+
+angular e un framework care sa inlocuiasca html simplu?
+
+
+
+Your environment has been set up for using Node.js 10.16.0 (x64) and npm.
+
+C:\Users\EndavaGuest>npm --version
+6.9.0
+
+C:\Users\EndavaGuest>
+
+
+
+C:\Users\EndavaGuest>npm install -g @angular/cli
+
+
+
+client-side modularizat
+ basic functions + incarca ce e nevoie
+
+C:\Users\EndavaGuest>ng --version
+
+
+
+
+C:\SchoolOfJava2019\SoJ17>ng new SoJ17p1
+	y, CSS
+
+
+
+src/app
+	root-ul aplicatiei
+
+typescript e un superset al js
+	are in plus type safety
+
+
+o aplicatie angular sta intr-un modul
+	root-ul aplicatiei
+
+
+main.ts
+	locul de unde se incarca aplicatia (app module)
+		app module are o singura componenta (app.component)
+
+
+
+environments
+	un fel de app properties
+
+
+
+index.html
+	entry point principal
+
+
+karma.conf.ts
+	config sitem teste
+
+main.ts
+	entry point aplicatie
+
+polyfills.ts
+	diverse librarii pentru diverse browsere
+
+
+ts devine js dupa "compilare"
+
+
+
+package.json
+	dependinte declarate
+
+node modules
+	dependintele declarate in package.json
+
+angular.json
+	configurarea proiectului
+
+
+
+
+
+
+
+
+
+
+
+
+ng serve
+
+
+
+ng build
+
+
+
+
+ng build --prod
+	genereaza in dist/PROJECT_NAME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Material Design
+	https://material.angular.io/
+	alternativa la bootstrap
+	npm install --save @angular/material @angular/cdk @angular/animations
+
+
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+	in styles.css
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	in index.html
+	alternativa e font awesome
+
+
+
+flex layout
+	https://github.com/angular/flex-layout
+	npm i -s @angular/flex-layout @angular/cdk
+	Explore Examples Online
+
+
+
+app.component.html
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+
+
+
+
+
+
+
+
+
+
+span este inline
+div este block
