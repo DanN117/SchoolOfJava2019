@@ -208,3 +208,18 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 span este inline
 div este block
+
+
+
+
+
+
+
+
+data viitoare:
+	componente
+	directive
+
+
+
+
