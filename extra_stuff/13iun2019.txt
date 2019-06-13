@@ -1,0 +1,87 @@
+SoJ 18
+
+angular
+	tot ce e intr-o app sta intr-o comp
+	mai multe module
+	tot codul o singura componenta
+
+
+o comp (app.component.ts) are:
+	un selector/identificator
+	template (view/html) (app.component.html)
+	lista stiluri (app.component.css)
+
+
+hooks:
+	ngOnInit()
+	ngOnChanges()
+		cand se schimba un input (titlu, var, proprietate, ceva)
+
+
+	ngDoCheck()
+		verificare manuala
+
+	ngAfterContentInit()
+		se poate injecta cod ca sa ruleze la inceput
+
+	ngOnDestroy()
+
+
+cele mai folosite:
+	after view init
+	on init
+	on changes
+
+o comp poate avea mai multe prop
+	setare: prop binding
+
+
+desen prop binding si event binding
+
+
+
+event emitter
+
+
+
+
+
+
+
+
+Two way data binding
+	desen din prezentare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

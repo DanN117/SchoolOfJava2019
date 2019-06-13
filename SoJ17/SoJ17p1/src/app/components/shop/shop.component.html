@@ -1,0 +1,66 @@
+
+
+
+  <div class="mat-title"> SHOP COMPONENT </div>
+
+  <div>
+    Product 1 Name: {{product1Name}}
+    <br>
+    Product 1 Description: {{product1Description}}
+    <br>
+    Product 1 Price: {{price1}}
+    <br>
+    Product 2 Name: {{product2Name}}
+    <br>
+    Product 2 Description: {{product2Description}}
+    <br>
+    Product 3 Name: {{product3Name}}
+    <br>
+    Product 3 Description: {{product3Description}}
+
+  </div>
+
+  <div>
+      Reference Product Price: {{mockProduct.price}}
+      <button (click)="decreaseProductPrice()"> Decrease Price </button>
+  </div>
+  
+
+  <div fxLayout="row wrap" fxLayoutAlign="start start" class="shop-container">
+
+    <app-product-card class="card"
+        (productNameChanged)="handleProduct1NameChanged($event)"
+        (productDescriptionChanged)="handleProduct1DescriptionChanged($event)"
+        [productName] = 'product1Name'
+        [productDescription] = 'product1Description'
+        [(price)]="price1"
+        class="card">
+
+    </app-product-card>
+
+    <app-product-card class="card"
+    (productNameChanged)="handleProduct2NameChanged($event)"
+    (productDescriptionChanged)="handleProduct2DescriptionChanged($event)"
+        [productName] = 'product2Name'
+        [productDescription] = 'product2Description'
+        class="card">
+
+    </app-product-card>
+
+    <app-product-card class="card"
+    (productNameChanged)="handleProduct3NameChanged($event)"
+    (productDescriptionChanged)="handleProduct3DescriptionChanged($event)"
+        [productName] = 'product3Name'
+        [productDescription] = 'product3Description'
+        class="card">
+
+    </app-product-card>
+
+    <app-product-card-reference
+        [product]="mockProduct"
+        class="card">
+    </app-product-card-reference>
+
+
+
+  </div>
