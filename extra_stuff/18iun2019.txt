@@ -1,0 +1,42 @@
+SoJ 18
+
+directive
+	componente
+
+	struct directive
+		ng for
+		ng if
+
+	atr directive
+		ng style
+		ng class
+
+
+  <div [ngStyle]="{'border': '1px solid', 'border-color: isEven ? 'red' : 'green'}"> Is even: {{isEven}} </div>
+
+
+
+cu directiva se poate face icon badge
+
+
+
+
+data viitoare:
+	dep injection
+
+
+
+movie view
+
+pana data viitoare backend functional
+
+ala cu array list
+
+
+
+
+post put get ?
+
+
+
+de citit reactive programming

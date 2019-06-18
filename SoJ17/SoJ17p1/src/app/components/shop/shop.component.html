@@ -3,6 +3,11 @@
 
   <div class="mat-title"> SHOP COMPONENT </div>
 
+  <div *ngIf="listOfProducts.length == 0 ">
+      Loading products...
+  </div>
+
+  <!--
   <div>
     Product 1 Name: {{product1Name}}
     <br>
@@ -24,10 +29,12 @@
       Reference Product Price: {{mockProduct.price}}
       <button (click)="decreaseProductPrice()"> Decrease Price </button>
   </div>
-  
+  -->
 
   <div fxLayout="row wrap" fxLayoutAlign="start start" class="shop-container">
 
+    
+  <!--
     <app-product-card class="card"
         (productNameChanged)="handleProduct1NameChanged($event)"
         (productDescriptionChanged)="handleProduct1DescriptionChanged($event)"
@@ -55,11 +62,30 @@
         class="card">
 
     </app-product-card>
+    -->
 
+<div *ngFor="let product of listOfProducts; 
+      let i = index; let isEven = even; 
+      let isOdd = odd; 
+      let isFirst = first; 
+      let isLast = last" 
+      class="card">
+  <div [ngStyle]="{'font-size': (10 + i*4) + 'px'}"> Product index: {{i}} </div>
+  <div [ngStyle]="{'border': '1px solid', 'border-color': isEven ? 'red' : 'green'}"> Is even: {{isEven}} </div>
+  <div [ngStyle]=""> Is odd: {{isOdd}} </div> <!-- is odd class -->
+  <div> Is first: {{isFirst}} </div>
+  <div> Is last: {{isLast}} </div>
+
+  <div appHover>
     <app-product-card-reference
-        [product]="mockProduct"
-        class="card">
+      [product]="product">
     </app-product-card-reference>
+  </div>
+
+
+
+</div>
+
 
 
 

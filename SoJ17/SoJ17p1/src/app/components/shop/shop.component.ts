@@ -7,7 +7,28 @@ import { Product } from '../product-card-reference/product.model';
     styleUrls: ['shop.component.css']
 })
 
-export class ShopComponent implements OnInit {
+export class ShopComponent implements OnInit  {
+
+    listOfProducts: Array<Product> = [];
+
+    
+
+    ngOnInit(): void {
+        setTimeout(() => {
+            this.listOfProducts = [
+                {name: 'Product 1', description: 'Short description of Product 1', price: 100 },
+                {name: 'Product 2', description: 'Short description of Product 2', price: 200 },
+                {name: 'Product 3', description: 'Short description of Product 3', price: 300 },
+                {name: 'Product 4', description: 'Short description of Product 4', price: 400 }
+            ];
+
+        }, 2000);
+    }
+    
+
+
+
+    /*
 
     product1Name = 'Product 1 Name';
     product2Name = 'Product 2 Name';
@@ -62,4 +83,5 @@ export class ShopComponent implements OnInit {
         
     }
 
+        */
 }
