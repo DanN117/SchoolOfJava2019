@@ -1,0 +1,34 @@
+https://github.com/adrianclaudiudima/school-of-java
+
+
+delete si create
+
+
+nu am backend
+
+
+
+
+forms
+	
+
+
+
+
+$ git reset --hard origin/master
+
+
+$ git pull
+
+
+importat boostrap in index.html
+
+
+
+
+form
+	create
+	se trimite catre backend
+	trigger load
+	sa se vada in lista 
+	si sa se curete formularul
