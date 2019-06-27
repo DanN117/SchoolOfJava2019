@@ -1,0 +1,7 @@
+data trecuta:
+	s-a folosit de la cursul 5
+	modificari si backend si frontend
+	tema: ???
+
+azi:
+
