@@ -1,0 +1,23 @@
+https://github.com/mariusscarlat96/schoolofjava2019
+
+
+https://angular.io/guide/reactive-forms
+
+
+routing
+
+
+
+good practice:
+	componente state-less
+		pt url ok
+
+
+subject keyword
+
+query param
+
+
+
+
+lazy loading
