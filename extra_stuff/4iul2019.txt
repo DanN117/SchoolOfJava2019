@@ -1,0 +1,22 @@
+module
+
+o comp poate fi intr-un singur modul
+
+un modul poate avea mai multe componente
+
+
+
+app
+	components
+	
+
+
+
+
+un modul
+	importa (MatButon, FlexLayoutModule
+	exporta
+	declara (ProductCardReferenceComponent, ShopComponent)
+
+
+router e o chestie html delimitata, ca "un fel de" fereastra

@@ -1,0 +1,19 @@
+Git-2.21.0-64-bit
+ideaIC-2019.1
+ideaIU-2019.1
+jdk-8u201-windows-x64
+jdk-12_windows-x64_bin
+npp.7.6.6.Installer
+Postman-win64-7.0.7-Setup
+VSCodeUserSetup-x64-1.35.0
+xampp-windows-x64-7.3.3-1-VC15-installer
+mongodb-win32-x86_64-2008plus-ssl-4.0.8-signed
+mysql-workbench-community-8.0.15-winx64
+node-v10.16.0-x64 (1)
+node-v10.16.0-x64
+
+
+
+
+
+
